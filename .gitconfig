@@ -1,0 +1,7 @@
+[user]
+    name = Name
+    email = email@email.address
+[color]
+    ui = always
+[alias]
+    list = log --all --graph --abbrev-commit --decorate --format=format:'%C(auto)%h - %C(dim white)(%ar)%C(auto) %s - %C(dim white)%an%C(auto)%d'
