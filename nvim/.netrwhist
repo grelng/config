@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/glong/git/Nuro/mapping/context_map_builder'
+let g:netrw_dirhist_4='/home/glong/git/Nuro/mapping'
+let g:netrw_dirhist_3='/home/glong/git/Nuro/mapping/context_map_builder'
+let g:netrw_dirhist_2='/home/glong/.config/nvim'
+let g:netrw_dirhist_1='/home/glong/.config/nvim/colors'
