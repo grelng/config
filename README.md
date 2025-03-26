@@ -23,6 +23,8 @@ Storage place for various config files.
  alias heap_profile='LD_PRELOAD=/usr/lib/libtcmalloc.so HEAPPROFILE=/tmp/heap_profile_$(date '+%Y%m%d_%H%M%S_%Z').out HEAPPROFILESIGNAL=12 HEAP_PROFILE_ALLOCATION_INTERVAL=0 HEAP_PROFILE_INUSE_INTERVAL=0'
  alias cpu_profile_full='LD_PRELOAD=/usr/lib/libprofiler.so CPUPROFILE=/tmp/cpu_profile_$(date '+%Y%m%d_%H%M%S_%Z').out'
  alias heap_profile_full='LD_PRELOAD=/usr/lib/libtcmalloc.so HEAPPROFILE=/tmp/heap_profile_$(date '+%Y%m%d_%H%M%S_%Z').out HEAP_PROFILE_ALLOCATION_INTERVAL=0 HEAP_PROFILE_INUSE_INTERVAL=0'
+
+alias vim="nvim"
 ```
 ## Git
 ```
@@ -66,6 +68,12 @@ Storage place for various config files.
 [pull]
         ff = only
 ```
+## zsh
+WIP
+## Neovim
+* install nvim
+* install plug: https://github.com/junegunn/vim-plug
+* put `nvim` folder into `~/.config`
 ## FZF
 - install fzf `sudo apt install fzf`
 - configure:
@@ -103,7 +111,7 @@ $ cd mosh
 $ ./autogen.sh
 $ ./configure
 $ make
-# make install
+$ make install
 ```
 ### SSH terminal
 - make sure $TERM is being reported properly
