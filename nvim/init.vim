@@ -57,7 +57,7 @@ set ttimeout
 
 " LSP
 " lua << EOF
-" require'lspconfig'.clangd.setup{}
+" vim.lsp.enable('clangd')
 " vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
 "     vim.lsp.diagnostic.on_publish_diagnostics, {
 "         virtual_text = false
