@@ -122,6 +122,31 @@ $ make install
    set -ga terminal-overrides ",xterm-256color:Tc"
    ```
    - restart tmux and verify colors work with color script
+## iTerm2
+To make navigate by word work with option+b/option+f:
+- Preferences > Keys (or Preferences > Profiles > Keys)
+- Click the plus.
+- move forward one word
+ ```option+right
+   send escape sequence
+   f
+   ```
+- move back one word
+ ```option+left
+   send escape sequence
+   b
+   ```
+- delete to beginning of word (credit)
+ ```option+delete
+   send hex code
+   0x1B 0x08
+   ```
+- delete to end of word
+ ```fn+option+delete
+   send escape sequence
+   d
+   ```
+
 ## Misc utilities
 - https://zaiste.net/posts/shell-commands-rust/
 - https://github.com/ibraheemdev/modern-unix
